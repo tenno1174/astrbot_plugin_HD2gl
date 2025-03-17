@@ -1,0 +1,6 @@
+name: astrbot_plugin_HD2gl # 这是你的插件的唯一识别名。
+desc: 这是通过指令调用插件内储存的绝地潜兵2攻略图片的插件1。 # 插件简短描述
+help: 输入 /keyword 查看关键词回复帮助。 # 插件的帮助信息
+version: v1.0 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: 灵煞 # 作者
+repo: https://github.com/Soulter/helloworld # 插件的仓库地址
