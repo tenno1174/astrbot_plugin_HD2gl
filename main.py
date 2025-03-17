@@ -1,6 +1,6 @@
 from astrbot.api.event import filter, AstrMessageEvent, MessageEventResult
 from astrbot.api.star import Context, Star, register
-from astrbot.api.message_components import MessageChain
+from astrbot.api.message_components import *
 from astrbot.api import logger
 
 @register("HD2gl", "灵煞", "绝地潜兵2攻略查询插件", "1.0.0")
