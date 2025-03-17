@@ -28,27 +28,27 @@ class MyPlugin(Star):
     @gl.command("wq")
     async def wq(self, event: AstrMessageEvent):
         chain = [
-            Image.fromFileSystem("./photo/zb/wq1.png"),
-            Image.fromFileSystem("./photo/zb/wq2.png"),
-            Image.fromFileSystem("./photo/zb/wq3.png")
+            Image.fromFileSystem("./data/plugins/astrbot_plugin_hd2gl/photo/zb/wq1.png"),
+            Image.fromFileSystem("./data/plugins/astrbot_plugin_hd2gl/photo/zb/wq2.png"),
+            Image.fromFileSystem("./data/plugins/astrbot_plugin_hd2gl/photo/zb/wq3.png")
             ]
         yield event.chain_result(chain)
         
     @gl.command("sl")    
     async def sl(self, event: AstrMessageEvent):  
-        yield event.image_result("./photo/zb/sl.png")  
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zb/sl.png")  
         
     @gl.command("pt")    
     async def pt(self, event: AstrMessageEvent):    
-        yield event.image_result("./photo/zb/pt.png")   
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zb/pt.png")   
         
     @gl.command("hj")    
     async def hj(self, event: AstrMessageEvent):    
-        yield event.image_result("./photo/zb/hj.png")  
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zb/hj.png")  
         
     @gl.command("zb")    
     async def zb(self, event: AstrMessageEvent):    
-        yield event.image_result("./photo/zb/zb.png")   
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zb/zb.png")   
         
     @gl.group("zjz")   
     def zjz():
@@ -56,55 +56,55 @@ class MyPlugin(Star):
     
     @zjz.command("aefzhg") 
     async def aefzhg(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/alfzhg.png") 
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/alfzhg.png") 
         
     @zjz.command("ccc") 
     async def ccc(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/ccc.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/ccc.png")
         
     @zjz.command("cchw") 
     async def cchw(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/cchw.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/cchw.png")
         
     @zjz.command("jsqx") 
     async def jsqx(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/jsqx.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/jsqx.png")
         
     @zjz.command("qx") 
     async def qx(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/qx.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/qx.png")
         
     @zjz.command("lszl") 
     async def lszl(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/lszl.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/lszl.png")
         
     @zjz.command("lszz") 
     async def lszz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/lszz.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/lszz.png")
         
     @zjz.command("sypy") 
     async def sypy(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/sypy.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/sypy.png")
         
     @zjz.command("tt") 
     async def tt(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/tt.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/tt.png")
         
     @zjz.command("wd") 
     async def wd(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/wd.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/wd.png")
         
     @zjz.command("zz") 
     async def zz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/yszz.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/yszz.png")
         
     @zjz.command("zl") 
     async def zl(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/zl.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/zl.png")
         
     @zjz.command("jx") 
     async def jx(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/zjz/jx.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/zjz/jx.png")
     
     @gl.group("jqr")
     def jqr():
@@ -112,35 +112,35 @@ class MyPlugin(Star):
     
     @jqr.command("hjzb") 
     async def hjzb(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/hjzb.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/hjzb.png")
         
     @jqr.command("jx") 
     async def jx(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/jx.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/jx.png")
         
     @jqr.command("kbz") 
     async def kbz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/kbz.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/kbz.png")
         
     @jqr.command("pt") 
     async def pt(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/pt.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/pt.png")
         
     @jqr.command("rlz") 
     async def rlz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/rlz.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/rlz.png")
         
     @jqr.command("tkc") 
     async def tkc(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/tkc.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/tkc.png")
         
     @jqr.command("ydgc") 
     async def ydgc(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/ydgc.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/ydgc.png")
         
     @jqr.command("ysj") 
     async def ysj(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/jqr/ysj.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/jqr/ysj.png")
         
     @gl.group("gnz")
     def gnz():
@@ -148,12 +148,12 @@ class MyPlugin(Star):
         
     @gnz.command("jcz") 
     async def jcz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/gnz/jcz.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/gnz/jcz.png")
         
     @gnz.command("lsq") 
     async def lsq(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/gnz/lsq.png")
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/gnz/lsq.png")
         
     @gnz.command("wpz") 
     async def wpz(self, event: AstrMessageEvent):
-        yield event.image_result("./photo/gnz/wpz.png")                                                                                             
+        yield event.image_result("./data/plugins/astrbot_plugin_hd2gl/photo/gnz/wpz.png")                                                                                             
