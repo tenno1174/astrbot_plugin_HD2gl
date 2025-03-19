@@ -24,7 +24,11 @@ class MyPlugin(Star):
             Plain("光能者第二级类(部分录入):jcz(两种监察者),lsq(猎杀器),wpz(肥胖无票者)")
         ]
         yield event.chain_result(chain)
-
+    
+    @gl.command("test")
+    async def test(self, event: AstrMessageEvent):
+        yield event.image_result("https://blog.soulter.top/assets/banner.jpg")
+        
     @gl.command("wq")
     async def wq(self, event: AstrMessageEvent):
         chain = [
